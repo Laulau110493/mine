@@ -1,0 +1,37 @@
+body {
+  background-color: #1e2a38;  /* donker grijs-blauw */
+  color: #ffffff;             /* witte tekst */
+  font-family: comic sans ms, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff; /* ook wit, maar je mag dit aanpassen naar lichtblauw als je wil */
+}
+
+a {
+  color: #66ccff; /* optioneel: links in lichtblauw */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+button {
+  background-color: #66ccff;
+  color: #1e2a38;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3399cc;
+}
